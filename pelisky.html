@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <title>Michal Maťašovský</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+  
+
+  body{
+    margin: 20px;
+    padding: 0;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+     }
+
+  h1{
+    font-family: arial, sans-serif;
+    font-size: 32px;
+    
+}
+
+h2{
+    font-family: arial, sans-serif;
+    font-size: 18px;
+    color: rgb(18, 77, 116);
+}
+  
+  
+  nav div {
+    display: inline-block;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    margin: 2px;
+    padding: 5px;
+  }
+  nav {background-color: darkgray;
+  }
+  #poslednymenuitem {
+    margin-right: 2px;
+  }
+  .button {
+  background-color: rgb(18, 77, 116); 
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  }
+
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-1 {
+  padding: 10px;
+  flex: 33%;
+  background-color: rgb(18, 77, 116); 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.flex-item-2 {
+  padding: 10px;
+  flex: 33%;
+  background-color: rgb(18, 77, 116); 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.flex-item-3 {
+  padding: 10px;
+  flex: 33%;
+  background-color: rgb(18, 77, 116); 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+@media (max-width: 500px) {
+  .flex-item-1, .flex-item-2, .flex-item-3 {
+    flex: 100%;
+  }
+}
+
+  .prvy {
+    color: rgb(64, 64, 222);
+    list-style-type: disc;
+  }
+
+  
+  
+  
+</style>
+
+</head>
+
+<body>
+
+  <div class="flex-container">
+    <div class="flex-item-1"><a href="index.html" class="button">Domov</a></div>
+    <div class="flex-item-2"><a href="filmy.html" class="button">Top filmy podľa ČSFD</a></div>
+    <div class="flex-item-3"><a href="add-review.html" class="button">Pridať recenziu</a></div>
+  </div>
+
+    
+      <h1 id="prvy">Pelíšky</h1>
+    <!-- Teraz bude nasledovať zoznam filmov -->
+    
+        <p>Česká klasika, ktorá ma vždy pobaví satirickým pohľadom na minulú dobu. </p>
+    <p><b>Herci</b></p>
+    <ul class="prvy">
+      <li><i class="fa-solid fa-mars"></i> Miroslav Donutil</li>
+      <li><i class="fa-solid fa-mars"></i> Jiří Kodet</li>
+      <li><i class="fa-solid fa-venus"></i> Eva Holubová</li>
+    </ul>
+    <p><b>Obsah</b></p>
+    <p>Otec Šebek (Miroslav Donutil) je prostoduchý, ale dobrácky dôstojník  z povolania, je zástancom panujúceho režimu a rovnako vehementne obhajuje aj vlastnú neomylnosť v úlohe hlavy rodiny. Otec Kraus (Jiří Kodet), ktorý má za sebou trpkú vojnovú skúsenosť, je naopak zarytý opozičník. Aj on je však presvedčený, že má vždy pravdu.  Preto sa nemožno čudovať, že sa títo muži nemajú v láske. Ich deti - gymnazista Michal (Michael Beran) a jeho pekná spolužiačka Jindřiška (Kristýna Nováková) – však spolu vychádzajú celkom dobre. Najmä Michal by bol veľmi rád, keby si ho Jindřiška viac všímala. Ona však dáva prednosť samoľúbemu spolužiakovi Elienovi (Ondřej Brousek), ktorého rodičia sú dobre situovaní, pretože pracujú v diplomatických službách. V oboch rodinách sa striedajú rodinné návštevy, oslavujú sa Vianoce, svadba i nečakaný pohreb. Mládež zatiaľ pokukuje po lákadlách kapitalistického sveta a snaží sa žiť svoj vlastný, na rodičovských autoritách nezávislý život. V súkromí rodinných „pelíškov“ sa tak odohrávajú malé drámy názorov a vzťahov, ktorým nechýba humor, rozprávačská elegancia, dobre vypointované situácie a vynikajúci dialóg... </p>
+    <p><i class="fa-solid fa-clapperboard"></i> réžia: Jan Hřebejk</p>
+    <p><i class="fa-solid fa-book-open"></i> scenár: Petr Jarchovský</p>
+    <p><i class="fa-solid fa-video"></i> kamera: Ján Malíř</p>
+    <p><i class="fa-solid fa-music"></i> hudba:  Ivan Král, Ivan Hlas</p>
+
+    <iframe width="600" height="300" src="https://www.youtube.com/embed/CwQOncE8O6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        
+ </body>
+</html>

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <title>Michal Maťašovský</title>
+
+<style>
+  body{
+    margin: 20px;
+    padding: 0;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+  }
+
+  h1{
+    font-family: arial, sans-serif;
+    font-size: 32px;
+
+  
+}
+
+
+h2{
+    font-family: arial, sans-serif;
+    font-size: 18px;
+    color: rgb(18, 77, 116);
+}
+
+h3{ font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+     }
+  
+.baner {
+  background-image: url("https://img.cas.sk/cas/900px/1599603.jpg/herec-pelisky-miroslav-donutil.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family: 'Courier New', Courier, monospace; 
+    color: white;
+    
+
+  }
+  
+  nav div {
+    display: inline-block;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    margin: 2px;
+    padding: 5px;
+  }
+  nav {background-color: darkgray;
+  }
+  #poslednymenuitem {
+    margin-right: 2px;
+  }
+  .button {
+  background-color: rgb(18, 77, 116); 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  }
+
+  * {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-1 {
+  padding: 10px;
+  flex: 33%;
+  background-color: rgb(18, 77, 116); 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.flex-item-2 {
+  padding: 10px;
+  flex: 33%;
+  background-color: rgb(18, 77, 116); 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.flex-item-3 {
+  padding: 10px;
+  flex: 33%;
+  background-color: rgb(18, 77, 116); 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+@media (max-width: 500px) {
+  .flex-item-1, .flex-item-2, .flex-item-3 {
+    flex: 100%;
+  }
+}
+
+  .prvy {
+    color: rgb(64, 64, 222);
+    list-style-type: disc;
+  }
+
+  .druhy {
+    color: rgb(110, 14, 14);
+    list-style-type: square;
+  }
+
+  svg {
+    width: 600px;
+    height: 300px;
+    border: solid 1px black;
+  }
+
+  .button1 {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+h2::first-letter {
+  color: red;
+}
+
+h3::first-letter {
+  color: red;
+}
+
+  
+</style>
+
+</head>
+
+<body>
+
+  <div class="flex-container">
+    <div class="flex-item-1"><a href="index.html" class="button">Domov</a></div>
+    <div class="flex-item-2"><a href="filmy.html" class="button">Top filmy podľa ČSFD</a></div>
+    <div class="flex-item-3"><a href="add-review.html" class="button">Pridať recenziu</a></div>
+  </div>
+
+  
+      <h1 id="prvy">Filmy, čo mám rád</h1>
+    <!-- Teraz bude nasledovať zoznam filmov -->
+    
+    <div class="baner">
+    <h3>Pelíšky</h3>
+    <p>V súkromí rodinných „pelíškov“ sa odohrávajú malé drámy názorov a vzťahov, ktorým nechýba humor, rozprávačská elegancia, dobre vypointované situácie a vynikajúci dialóg... </p>
+    <p><b>Herci</b></p>
+    <ul class="druhy" style="color: white">
+      <li>Miroslav Donutil</li>
+      <li>Jiří Kodet</li>
+      <li>Eva Holubová</li>
+    </ul>
+    <a href="pelisky.html" class="button1 button2">Detail filmu</a>
+      </div>
+
+    <p>&nbsp;</p>
+    <h2>Hľadá sa Nemo</h2>
+    <p>Vo všeobecnosti som fanúšik animákov od Pixaru a tento je pre mňa jeden z top.</p>
+    <p><b>Herci</b></p>
+    <ul style="list-style-type:circle">
+      <li>rybka Nemo &#128512;</li>
+      <li>rybka Dory &#128512;</li>
+    </ul>
+
+    <svg>
+      <ellipse cx="240" cy="150" rx="150" ry="80" fill="orange"/>
+      <circle cx="140" cy="120" r="10" fill="black"/>
+      <polygon points="370,150 490,50 490,250" fill="orange"/>
+
+    </svg>
+
+    <p>&nbsp;</p>
+    <h2>Titanic</h2>
+    <p>Zaujímam sa o históriu tejto tragédie a v <a href="https://www.csfd.sk/film/1250-titanic/prehlad/">tomto filme</a> to bolo dobre vykreslené.</p>
+    <p><b>Herci</b></p>
+    <ul class="prvy">
+      <li>Leonardo DiCaprio</li>
+      <li>Kate Winslet</li>
+      <li>Billy Zane</li>
+    </ul>
+      
+ 
+
+</body>
+</html>
